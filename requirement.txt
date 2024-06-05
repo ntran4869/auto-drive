@@ -1,0 +1,103 @@
+annotated-types==0.7.0
+antlr4-python3-runtime==4.9.3
+asttokens @ file:///home/conda/feedstock_root/build_artifacts/asttokens_1698341106958/work
+backcall @ file:///home/conda/feedstock_root/build_artifacts/backcall_1592338393461/work
+casadi==3.6.5
+certifi==2024.6.2
+charset-normalizer==3.3.2
+click==8.1.7
+comm @ file:///home/conda/feedstock_root/build_artifacts/comm_1710320294760/work
+commonroad-all==0.1.0
+commonroad-crime==0.3.0
+commonroad-dataset-converter==2023.2
+commonroad-drivability-checker==2023.1
+commonroad-io==2023.3
+commonroad-reach==2023.1.1
+commonroad-route-planner==2022.3
+commonroad-scenario-designer==0.8.0
+commonroad-vehicle-models==3.0.2
+contourpy==1.1.1
+cycler==0.12.1
+Cython==3.0.10
+debugpy @ file:///croot/debugpy_1690905042057/work
+decorator @ file:///home/conda/feedstock_root/build_artifacts/decorator_1641555617451/work
+docker==7.1.0
+entrypoints @ file:///home/conda/feedstock_root/build_artifacts/entrypoints_1643888246732/work
+enum34==1.1.10
+executing @ file:///home/conda/feedstock_root/build_artifacts/executing_1698579936712/work
+ffmpeg==1.4
+fonttools==4.53.0
+grpcio==1.64.0
+idna==3.7
+imageio==2.34.1
+importlib_resources==6.4.0
+ipykernel @ file:///home/conda/feedstock_root/build_artifacts/ipykernel_1708996548741/work
+ipython @ file:///home/conda/feedstock_root/build_artifacts/ipython_1680185408135/work
+iso3166==2.1.1
+jedi @ file:///home/conda/feedstock_root/build_artifacts/jedi_1696326070614/work
+jupyter-client @ file:///home/conda/feedstock_root/build_artifacts/jupyter_client_1654730843242/work
+jupyter_core @ file:///croot/jupyter_core_1698937308754/work
+kiwisolver==1.4.5
+lanelet2==1.2.1
+libsumo==1.20.0
+lxml==4.9.4
+matplotlib==3.7.5
+matplotlib-inline @ file:///home/conda/feedstock_root/build_artifacts/matplotlib-inline_1713250518406/work
+mercantile==1.2.1
+nest_asyncio @ file:///home/conda/feedstock_root/build_artifacts/nest-asyncio_1705850609492/work
+networkx==3.1
+numpy==1.24.4
+omegaconf==2.3.0
+opencv-python==4.9.0.80
+ordered-set==4.1.0
+packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1710075952259/work
+pandas==2.0.3
+parso @ file:///home/conda/feedstock_root/build_artifacts/parso_1712320355065/work
+pexpect @ file:///home/conda/feedstock_root/build_artifacts/pexpect_1706113125309/work
+pickleshare @ file:///home/conda/feedstock_root/build_artifacts/pickleshare_1602536217715/work
+pillow==10.3.0
+platformdirs @ file:///home/conda/feedstock_root/build_artifacts/platformdirs_1706713388748/work
+Polygon3==3.0.9.1
+prompt-toolkit @ file:///home/conda/feedstock_root/build_artifacts/prompt-toolkit_1702399386289/work
+protobuf==3.20.1
+psutil @ file:///opt/conda/conda-bld/psutil_1656431268089/work
+ptyprocess @ file:///home/conda/feedstock_root/build_artifacts/ptyprocess_1609419310487/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl
+pure-eval @ file:///home/conda/feedstock_root/build_artifacts/pure_eval_1642875951954/work
+pyarrow==9.0.0
+pydantic==2.7.2
+pydantic_core==2.18.3
+PyGeodesy==23.12.29
+Pygments @ file:///home/conda/feedstock_root/build_artifacts/pygments_1700607939962/work
+PyMetis==2023.1.1
+pyparsing==3.1.2
+pyproj==3.5.0
+PyQt5==5.15.10
+PyQt5-Qt5==5.15.2
+PyQt5-sip==12.13.0
+python-dateutil @ file:///home/conda/feedstock_root/build_artifacts/python-dateutil_1709299778482/work
+pytz==2024.1
+PyYAML==6.0
+pyzmq @ file:///croot/pyzmq_1705605076900/work
+requests==2.32.3
+Rtree==1.2.0
+ruamel.yaml==0.18.6
+ruamel.yaml.clib==0.2.8
+scipy==1.10.1
+seaborn==0.13.2
+shapely==2.0.4
+similaritymeasures==1.1.0
+six @ file:///home/conda/feedstock_root/build_artifacts/six_1620240208055/work
+stack-data @ file:///home/conda/feedstock_root/build_artifacts/stack_data_1669632077133/work
+sumocr==2023.2
+sumolib==1.20.0
+tornado @ file:///croot/tornado_1696936946304/work
+tqdm==4.66.4
+traci==1.20.0
+traitlets @ file:///home/conda/feedstock_root/build_artifacts/traitlets_1710254411456/work
+typer==0.9.4
+typing_extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1712329955671/work
+tzdata==2024.1
+urllib3==2.2.1
+utm==0.7.0
+wcwidth @ file:///home/conda/feedstock_root/build_artifacts/wcwidth_1704731205417/work
+zipp==3.19.1

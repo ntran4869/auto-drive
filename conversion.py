@@ -86,7 +86,7 @@ if __name__ == "__main__":
     
     elif args.bound:
         min_latitude, min_longitude, max_latitude, max_longitude = args.bound
-        download_map(config.SAVE_PATH, min_latitude, min_longitude, max_latitude, max_longitude)
+        download_map(config.SAVE_PATH+ input_file_path, min_latitude, min_longitude, max_latitude, max_longitude)
 
     print('FINISH DOWNLOAD MAP')
     
@@ -97,7 +97,7 @@ if __name__ == "__main__":
     # save the scenario as commonroad file
     scenario.save_as_cr(cmr_path)
 
-    lanelet_path = "lanelet_" + input_file_path + ".osm"
+    lanelet_path = OUTPUT_DIR + input_file_path.split('.')[0] + ".osm"
     # load CommonRoad file and convert it to lanelet format
     commonroad_to_lanelet(cmr_path, lanelet_path)
 
