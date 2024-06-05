@@ -6,7 +6,7 @@ from commonroad.scenario.scenario import Tag
 from commonroad.common.file_writer import CommonRoadFileWriter, OverwriteExistingFile
 from commonroad.planning.planning_problem import PlanningProblemSet
 from commonroad.common.file_reader import CommonRoadFileReader
-from crdesigner.map_conversion.osm2cr.converter_modules.osm_operations.downloader import download_around_map, download_map
+from crdesigner.map_conversion.osm2cr.converter_modules.osm_operations.downloader import download_around_map, download_map, get_frame
 from crdesigner.map_conversion.osm2cr import config
 from crdesigner.map_conversion.map_conversion_interface import commonroad_to_lanelet
 
@@ -82,12 +82,12 @@ if __name__ == "__main__":
     '''
     if args.center:
         latitude, longitude, radius = args.center
-        download_around_map(input_file_path, latitude, longitude, radius)
+        min_latitude, min_longitude, max_latitude, max_longitude = get_frame(longitude, latitude, radius)
     
     elif args.bound:
         min_latitude, min_longitude, max_latitude, max_longitude = args.bound
-        download_map(config.SAVE_PATH+ input_file_path, min_latitude, min_longitude, max_latitude, max_longitude)
-
+    
+    download_map(config.SAVE_PATH+ input_file_path, min_latitude, min_longitude, max_latitude, max_longitude)
     print('FINISH DOWNLOAD MAP')
     
     # open the map and convert it to a scenario
@@ -100,6 +100,8 @@ if __name__ == "__main__":
     lanelet_path = OUTPUT_DIR + input_file_path.split('.')[0] + ".osm"
     # load CommonRoad file and convert it to lanelet format
     commonroad_to_lanelet(cmr_path, lanelet_path)
+    
+    extract_nd_refs(lanelet_path)
 
 
 
