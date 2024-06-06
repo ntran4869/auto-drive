@@ -10,7 +10,7 @@ class Point:
         
 
 class PairPoint:
-    def __init__(self, left : Point, right: Point, idx = 10000) -> None:
+    def __init__(self, left : Point, right: Point, idx) -> None:
         self.left = left
         self.right = right
         self.idx = idx
@@ -19,7 +19,6 @@ class PairPoint:
         _x_mid = (self.left.x + self.right.x) // 2
         _y_mid = (self.left.y + self.right.y) // 2
         _z_mid = (self.left.z + self.right.z) // 2
-        self.idx += 1
         return Point(self.idx, _x_mid, _y_mid, _z_mid, -1)
     
 class Way:
